@@ -59,8 +59,8 @@ if ($stmt->execute() === TRUE) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'arianaaracelidiaz@gmail.com';
-    $mail->Password = 'ggnsmsbrvhkqgild';
+    $mail->Username = 'emailservidor';
+    $mail->Password = 'contraseniavinculantedesdeemailserver';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
   
