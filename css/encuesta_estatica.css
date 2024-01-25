@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.staticForm {
+    margin-left: 20px;
+    max-width: 600px; /* Limita el ancho máximo del formulario */
+    width: 100%; /* Hace que el formulario sea responsivo */
+}
+
+input[type="text"], input[type="number"] {
+    margin-bottom: 10px;
+    width: 100%; /* Hace que los inputs sean responsivos */
+}
+
+#submitButtonStatic {
+    background-color: #343a40;
+    color: white;
+    border-radius:30%;
+    width: 80px;
+    height: 50px;
+}
+
+#submitButtonStatic:hover {
+    background-color: #b31d1d;
+}

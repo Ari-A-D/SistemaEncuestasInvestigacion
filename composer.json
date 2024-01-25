@@ -1,0 +1,20 @@
+{
+    "name": "ariana/fundacion-observar-encuestas",
+    "description": "Proyecto de sistema para encuestas de investigacion, monitoreo y observacion.",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ariana\\FundacionObservarEncuestas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AriD",
+            "email": "arianaaracelidiaz@gmail.com"
+        }
+    ]
+}

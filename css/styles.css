@@ -1,0 +1,141 @@
+#imageAndTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1cm;
+  background-color: #343a40; /* Color de fondo negro satinado */
+ color: #ffffff; /* Color de texto blanco */
+ }
+.d-flex.flex-wrap {
+  margin-top: 20px; /* Ajusta este valor según tus necesidades */
+}
+.card {
+    background-color: #f8f9fa; /* Cambia este valor al color gris claro que prefieras */
+    flex: 1 0 auto;
+    margin: 10px;
+}
+  
+.btn-secondary {
+    background-color: #343a40; /* Cambia este valor al color negro perlado que prefieras */
+    color: #fff;
+}
+.btn-primary {
+    background-color: #007bff; /* Cambia este valor al color azul perlado que prefieras */
+    color: #fff;
+}
+.custom-navbar {
+    background-color: #007bff; /* Cambia este valor al color gris vidriado que prefieras */
+  }
+.eliminar-btn {
+    border-bottom: 3px solid #A9A9A9;
+    display: inline-block;
+    width: auto;
+}
+.cloned-form {
+    margin-top: 20px;
+  }
+#hr {
+    border: none;
+    border-top: 3px solid #A9A9A9;
+    width: 100%;
+}
+.button{
+    border-bottom: 3px solid #A9A9A9;
+    display: inline-block;
+    width: auto;
+} 
+.form-container-opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilo para la tabla */
+.card-body .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  .card-body .table th, .card-body .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Estilo para los botones */
+  .card-body .delete-button-pregunta, .card-body .edit-button, .card-body .edit-button-tipo, .card-body .edit-button-opcion, .card-body .delete-button-opcion, .delete-button-encuestador {
+    background-color: #000000; /* Color negro brillante */
+    color: #ffffff; /* Color blanco */
+    border: none;
+    padding: 5px 10px; /* Ajustar estos valores para cambiar el tamaño de los botones */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Ajustar este valor para cambiar el tamaño del texto */
+    transition-duration: 0.4s; /* Duración de la transición */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Sombra */
+  }
+  
+  /* Estilo para los botones cuando se pasa el mouse por encima */
+  .card-body .delete-button:hover, .card-body .edit-button:hover, .card-body .edit-button-tipo:hover, .card-body .edit-button-opcion:hover, .card-body .delete-button-opcion:hover {
+    background-color: #b31d1d; /* Color un poco menos brillante */
+  }
+/* Estilo para los contenedores de los botones */
+.button-container {
+    text-align: right;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea las tarjetas al inicio del contenedor en el eje vertical */
+}
+
+.card {
+    flex: 1 0 60%; /* La primera tarjeta ocupará el 70% del ancho del contenedor */
+    margin: 0 5px; /* Añade un margen para separar las tarjetas */
+}
+
+.card:last-child {
+    flex: 1 0 35%; /* La segunda tarjeta ocupará el 25% del ancho del contenedor */
+}
+
+.second-card table, .second-card th, .second-card td {
+  border: 1px solid #ddd;  
+  border-collapse: collapse; /* Combina las líneas de las celdas adyacentes */
+}
+
+.second-card th, .second-card td {
+  padding: 10px; /* Añade un relleno alrededor del texto en las celdas */
+}
+.container {
+  margin-top: 2%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px; /* Agrega un margen superior de 20px al contenedor de las tarjetas-card-container */
+}
+
+.edit-Nombre, .edit-Apellido, .edit-DNI,.edit-NumTramiteDNI {
+  color: rgb(0, 0, 0); /* Color rojo por defecto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  transition: color 0.3s; /* Transición de 0.3 segundos para cambiar de color al pasar el mouse */
+}
+
+.edit-Nombre:hover, .edit-Apellido:hover, .edit-DNI:hover, .edit-NumTramiteDNI:hover {
+  color: rgb(255, 187, 0); /* Cambia a azul cuando se pasa el mouse por encima */
+}
+.delete-button-encuestador:hover {
+  background-color: #b31d1d; /* Color un poco menos brillante */
+}
+#logout-button:hover{
+  background-color: #b31d1d;
+}
+#create-button:hover{
+  background-color: #1d84b3;
+}
+td, th {
+  text-align: center;
+}
+

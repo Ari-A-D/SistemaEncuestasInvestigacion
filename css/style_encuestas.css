@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+#submitButtonDynamic {
+    background-color: #343a40; /* Gris oscuro */
+    color: #ffffff; /* Blanco */
+    border-radius: 30%; /* Redondea las esquinas del botón */
+    width: 80px;
+    height: 50px;
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+#submitButtonDynamic:hover {
+    background-color: #b31d1d; /* Rojizo sangre */
+}
